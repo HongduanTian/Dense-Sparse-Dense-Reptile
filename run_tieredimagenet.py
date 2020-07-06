@@ -7,13 +7,13 @@ import os
 import tensorflow as tf
 
 import pandas as pd
-from DSD.args import argument_parser, model_kwargs, baseline_train_kwargs, DSD_train_kwargs, IHT_train_kwargs, evaluate_kwargs, data_kwargs
-from DSD.eval import evaluate
-from DSD.models import MiniImageNetModel
-from DSD.tieredimagenet import dataset_tiered
-from DSD.basetrain import base_train
-from DSD.dsdtrain import dsd_train
-from DSD.ihttrain import iht_train
+from src.args import argument_parser, model_kwargs, baseline_train_kwargs, DSD_train_kwargs, IHT_train_kwargs, evaluate_kwargs, data_kwargs
+from src.eval import evaluate
+from src.models import MiniImageNetModel
+from src.tieredimagenet import dataset_tiered
+from src.basetrain import base_train
+from src.dsdtrain import dsd_train
+from src.ihttrain import iht_train
 
 
 #DATA_DIR = 'data/tiered-imagenet'

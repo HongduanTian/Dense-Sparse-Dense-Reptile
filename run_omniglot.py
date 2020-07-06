@@ -7,13 +7,13 @@ import pandas as pd
 import tensorflow as tf
 import os
 
-from DSD.args import argument_parser, model_kwargs, baseline_train_kwargs, DSD_train_kwargs, IHT_train_kwargs, evaluate_kwargs
-from DSD.eval import evaluate
-from DSD.models import OmniglotModel
-from DSD.omniglot import read_dataset, split_dataset, augment_dataset
-from DSD.basetrain import base_train
-from DSD.dsdtrain import dsd_train
-from DSD.ihttrain import iht_train
+from src.args import argument_parser, model_kwargs, baseline_train_kwargs, DSD_train_kwargs, IHT_train_kwargs, evaluate_kwargs
+from src.eval import evaluate
+from src.models import OmniglotModel
+from src.omniglot import read_dataset, split_dataset, augment_dataset
+from src.basetrain import base_train
+from src.dsdtrain import dsd_train
+from src.ihttrain import iht_train
 
 DATA_DIR = 'data/omniglot'
 
