@@ -9,7 +9,7 @@ sub-directory per WordNet ID.
 
 import os
 import random
-from DSD.args import argument_parser
+from .args import argument_parser
 from PIL import Image
 import numpy as np
 
