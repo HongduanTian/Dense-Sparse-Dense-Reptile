@@ -1,6 +1,6 @@
 # Dense-Sparse-Dense Reptile
  This repository contains the code and experiments for the paper:  
- [Meta Learning with Network Pruning](https://openreview.net/pdf?id=FD8fE16Zo)
+ [Meta Learning with Network Pruning](http://arxiv.org/abs/2007.03219)
  [(ECCV '20)](https://eccv2020.eu/)
  
 ## Requirements
