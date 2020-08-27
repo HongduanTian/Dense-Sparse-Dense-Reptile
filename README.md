@@ -9,9 +9,7 @@ python3.6
 tqdm  
 
 ## Getting the data  
-### miniimagenet dataset
-Run [fetch_data.sh](fetch_data.sh) script to acquire the dataset needed in the experiments. The script file creates a `data/` directory and downloads miniimagenet into it.
-The size of dataset is about 5GB, so it takes about 10-20 min to download this dataset on a reasonably fast internet connection.
+### [miniimagenet dataset](https://drive.google.com/file/d/1GCozydCABFjbA7x7W7JJECy5GbCGForu/view?usp=sharing)
 
 ### tieredimagenet dataset  
 Please download the compressed tar files from: https://github.com/renmengye/few-shot-ssl-public  
